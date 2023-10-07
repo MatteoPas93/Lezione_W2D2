@@ -1,0 +1,303 @@
+body {
+  margin: 5%;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  border-bottom-color: rgb(195, 193, 193);
+  border-bottom-style: solid;
+}
+
+.logo img {
+  width: 60%;
+}
+
+#navbar {
+  width: 4%;
+  margin-inline: 1%;
+}
+
+.icone-nav {
+  display: flex;
+  border: none;
+}
+
+#navbar2 {
+  width: 2%;
+  margin-inline: 1.5%;
+}
+
+#utente {
+  width: 3.5%;
+}
+
+.text {
+  border-radius: 50px;
+  size: 5px;
+  margin-inline: 2%;
+  text-align: center;
+}
+
+.contenitore-principale {
+  display: flex;
+}
+
+.contenitore-sx {
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid rgb(195, 193, 193);
+  margin-right: 10%;
+}
+
+.contenitore-dx {
+  display: flex;
+  flex-direction: column;
+}
+
+.h5 {
+  margin-top: 10%;
+  display: flex;
+  width: 78%;
+  border-bottom: 1px solid rgb(195, 193, 193);
+  margin-left: 4%;
+}
+
+#grigio p {
+  margin-bottom: 5px;
+}
+
+#grigio button {
+  border: none;
+  background-color: white;
+}
+
+#nero {
+  margin-left: 2%;
+}
+
+#nero p {
+  
+  margin-bottom: 5px;
+}
+#nero button {
+  border: none;
+  background-color: white;
+  color: rgb(0, 0, 0);
+}
+
+.utenti {
+  width: 20px;
+  object-fit: cover;
+  margin-left: 100%;
+}
+
+.card {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: 20px;
+}
+
+.icone-menu {
+  display: flex;
+  justify-content: flex-end;
+  margin-inline: 2%;
+}
+
+.icone-menu img {
+  width: 3%;
+  margin-inline: 5px;
+}
+
+h6,
+h3 {
+  margin: 5px;
+}
+
+h5 {
+  color: grey;
+}
+
+.data {
+  color: grey;
+  margin-right: 30px;
+}
+
+.data button {
+  border-radius: 50px;
+  border: none;
+}
+
+.articolo1 {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 5px;
+  row-gap: 5%;
+  flex-direction: column;
+}
+.articolo1 img {
+  object-fit: cover;
+}
+
+.logo2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo2 img {
+  width: 10%;
+}
+
+#logo2 {
+  width: 25%;
+}
+
+.nome {
+  margin-left: 25px;
+}
+
+img {
+  width: 150px;
+}
+
+.bottone-twitter {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bottone-twitter button {
+  border-radius: 50px;
+  background-color: white;
+  display: flex;
+  border-color: #bcbbbb;
+  width: 40%;
+  align-items: center;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.bottone-twitter img {
+  width: 15%;
+}
+
+.follow-twitter {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.follow-twitter h4 {
+  margin-block: 2px;
+}
+
+.later {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid rgb(182, 182, 182);
+}
+.topic {
+  margin-top: 10%;
+}
+
+.bottoni-dx button {
+  border-radius: 50px;
+  border: none;
+  margin-inline: 5px;
+  margin-block: 7px;
+}
+
+.bottoni-dx {
+  margin-bottom: 20%;
+}
+
+.card-utenti {
+  display: flex;
+  margin-top: 10%;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.tre-utenti img {
+  width: 35%;
+}
+
+.tre-utenti {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 0%;
+  align-items: center;
+}
+
+.messaggi-utenti {
+  display: flex;
+  flex-direction: column;
+}
+
+.messaggi-utenti h4 {
+  display: flex;
+  margin-block: 0%;
+}
+
+.messaggi-utenti h6 {
+  color: grey;
+  display: flex;
+}
+
+.bottoni-finali {
+  display: flex;
+  align-items: center;
+}
+
+.bottoni-finali button {
+  border-radius: 50px;
+  display: flex;
+}
+
+.contenitore-utenti {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20%;
+  margin-top: 10%;
+}
+
+.contenitore-finale {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.card2 {
+  display: flex;
+}
+
+.autore2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.autore2 img {
+  margin-left: 20%;
+}
+
+.info-utente .nome {
+  margin-left: 4%;
+}
+
+.info-utente .nome2 {
+  margin-left: 8%;
+}
+
+.see-all p {
+  color: green;
+  margin-bottom: 30%;
+}
